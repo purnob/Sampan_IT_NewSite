@@ -120,7 +120,7 @@ ul li {
 
 .content-head {
 	text-align: center;
-	margin-bottom: 75px;
+	margin-bottom: 50px;
 }
 
 .content-head h3 {
@@ -152,7 +152,7 @@ ul li {
 	width: 60px;
 	height: 3px;
 	background: #ffa341;
-	margin: 24px auto;
+	margin: 15px auto;
 }
 
 .sep1 {
@@ -838,7 +838,7 @@ header .intro-text .intro-heading {
 }
 
 #services2 {
-	padding: 100px 0 10px;
+	padding: 60px 0 10px;
 }
 
 #services2 .service-content p {
