@@ -2907,3 +2907,124 @@ article img {
     margin: 10px 0 0 9px!important;
     color:white!important;
 }
+
+/*====================================== Working Process==============================*/
+
+.working_process {
+    padding: 60px 0;
+}
+
+.general-title, .messagebox {
+    text-align: center;
+}
+.custom-services {
+    display: block;
+    margin: 20px 0;
+    overflow: visible;
+    padding: 0;
+    position: relative !important;
+}
+.ch-item {
+    display: block;
+    height: 200px;
+    margin: 20px 0;
+    overflow: visible;
+    padding: 0;
+    position: relative !important;
+}
+.ch-info-wrap {
+    display: block;
+    background: none repeat scroll 0 0 #EBF4AA;
+    border-radius: 10px;
+    height: 200px;
+    perspective: 800px;
+    position: absolute;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+}
+.ch-info-back {
+    padding: 15px;
+    text-align: center;
+    background-color:#EFDEFA; 
+}
+.ch-info-front {
+    padding-top: 40px;
+    text-align: center;
+    background-color:#FFFFFF; 
+}
+
+.ch-info-front i {color:#4578A2; }
+
+.ch-info-back h3 {
+    color: #0C5713;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.ch-info-back p {
+    margin: 15px 0 0 0;
+    color: #101031;
+    font-size: 14px;
+}
+.ch-info-front h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ch-info {
+    height: 200px;
+    position: absolute;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+}
+.ch-info > div {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    background-position: center center;
+    border-radius: 10px;
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.ch-info .ch-info-back {
+    transform: rotate3d(0, 1, 0, 180deg);
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+    -o-transform: rotate3d(0, 1, 0, -180deg);
+    -ms-transform: rotate3d(0, 1, 0, -180deg);
+
+}
+.ch-item:hover .ch-info {
+    transform: rotate3d(0, 1, 0, -180deg);
+    -webkit-transform: rotate3d(0, 1, 0, -180deg);
+    -o-transform: rotate3d(0, 1, 0, -180deg);
+    -ms-transform: rotate3d(0, 1, 0, -180deg);
+}
+
+.general-title h2 {
+    font-size: 31px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding-bottom: 0;
+    text-rendering: optimizespeed;
+    color: white;
+}
+
+.ch-info-front h3 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.general-title .lead {
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    line-height: 1.9;
+    margin: 15px 0;
+}
