@@ -39,10 +39,10 @@ $(document).ready(function($) {
 
     // Stats 
     $('#stats ').appear(function() {
-        $('.stat1').animateNumber({ number: 356 }, 1200);
-        $('.stat2').animateNumber({ number: 287 }, 1200);
-        $('.stat3').animateNumber({ number: 112 }, 1150);
-        $('.stat4').animateNumber({ number: 1645 }, 1300);
+        $('.stat1').animateNumber({ number: 15 }, 1200);
+        $('.stat2').animateNumber({ number: 27 }, 1200);
+        $('.stat3').animateNumber({ number: 12 }, 1150);
+        $('.stat4').animateNumber({ number: 820 }, 1300);
     }, {
         accX: 0,
         accY: -200
@@ -56,7 +56,7 @@ $(document).ready(function($) {
     // Skills - Skill1 
     $('#skills').appear(function() {
         $('#skill1').circleProgress({
-            value: 0.85,
+            value: 0.98,
             size: 180,
             thickness: '10',
             fill: {
@@ -70,7 +70,7 @@ $(document).ready(function($) {
 
         var percent_number_step = $.animateNumber.numberStepFactories.append('%')
         $('.skill1').animateNumber({
-            number: 90,
+            number: 98,
             numberStep: percent_number_step
         }, 1200);
 
@@ -82,7 +82,7 @@ $(document).ready(function($) {
     // Skills - Skill2
     $('#skills').appear(function() {
         $('#skill2').circleProgress({
-            value: 0.50,
+            value: 0.97,
             size: 180,
             thickness: '10',
             fill: {
@@ -96,7 +96,7 @@ $(document).ready(function($) {
 
         var percent_number_step = $.animateNumber.numberStepFactories.append('%')
         $('.skill2').animateNumber({
-            number: 50,
+            number: 97,
             numberStep: percent_number_step
         }, 1200);
 
@@ -108,7 +108,7 @@ $(document).ready(function($) {
     // Skills - Skill3
     $('#skills').appear(function() {
         $('#skill3').circleProgress({
-            value: 0.75,
+            value: 0.95,
             size: 180,
             thickness: '10',
             fill: {
@@ -121,7 +121,7 @@ $(document).ready(function($) {
         });
         var percent_number_step = $.animateNumber.numberStepFactories.append('%')
         $('.skill3').animateNumber({
-            number: 75,
+            number: 95,
             numberStep: percent_number_step
         }, 1200);
 
@@ -133,7 +133,7 @@ $(document).ready(function($) {
     // Skills - Skill4
     $('#skills').appear(function() {
         $('#skill4').circleProgress({
-            value: 0.60,
+            value: 0.90,
             size: 180,
             thickness: '10',
             fill: {
@@ -146,7 +146,7 @@ $(document).ready(function($) {
         });
         var percent_number_step = $.animateNumber.numberStepFactories.append('%')
         $('.skill4').animateNumber({
-            number: 60,
+            number: 90,
             numberStep: percent_number_step
         }, 1200);
 

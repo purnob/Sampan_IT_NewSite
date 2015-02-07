@@ -332,9 +332,9 @@ ul li {
 .navbar-default .nav li a {
 	text-transform: uppercase;
 	font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .nav > li > a {
@@ -1287,7 +1287,7 @@ text-align: center;
 	font-weight: 600;
 	color: #010101;
 	text-transform: uppercase;
-	margin: 1px 0 10px;
+	margin: 25px 0 10px;
 }
 
 .fl-inner p {
@@ -1313,7 +1313,7 @@ text-align: center;
 	font-weight: 600;
 	color: #010101;
 	text-transform: uppercase;
-	margin: 1px 0 10px;
+	margin: 25px 0 10px;
 }
 
 .fr-inner p {
@@ -2945,7 +2945,7 @@ article img {
 .ch-info-back {
     padding: 15px;
     text-align: center;
-    background-color:#EFDEFA; 
+    background-color:#2f9aea; 
 }
 .ch-info-front {
     padding-top: 40px;
@@ -2956,7 +2956,7 @@ article img {
 .ch-info-front i {color:#4578A2; }
 
 .ch-info-back h3 {
-    color: #0C5713;
+    color: wheat;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0;
@@ -2964,7 +2964,7 @@ article img {
 }
 .ch-info-back p {
     margin: 15px 0 0 0;
-    color: #101031;
+    color: white;
     font-size: 14px;
 }
 .ch-info-front h3 {

@@ -1,0 +1,37 @@
+body{
+  background:#f3f3f3;
+  margin:0;
+  padding:0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+
+
+#header, #body{
+  width:800px;
+  margin:0 auto;
+}
+#body{
+  margin:20px auto;
+}
+
+
+
+
+
+
+.popin{
+  background:#fff;
+  padding:15px;
+  box-shadow: 0 0 20px #999;
+  border-radius:2px;
+}
+
+
+
+#map,
+#panorama {
+  height:300px;
+  background:#6699cc;
+}
+
